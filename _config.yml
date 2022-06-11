@@ -5,4 +5,4 @@ description: "this"
 
 
 navigation:
-  - {file:"sample2.html", icon: home}
+  - {file:"sample2.html", "title"}
