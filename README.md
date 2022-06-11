@@ -1,1 +1,2 @@
 # rubama.github.io
+welcome
