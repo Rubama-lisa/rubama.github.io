@@ -1,15 +1,15 @@
-## Welcome to GitHub Pages
-**This is our first page**
+## Welcome to Property Management System
+**This is our Registration page**
 .
-Registration Page
-This project have 4 users. Each user need to register before entering this system.
+The features of Registration Page
+This project have 4 users. Each user need to register before entering the system.
 *   Admin.
 *   Seller.
 *   Buyer.
 *   Agent.
 
 
-The first field of registration is Seller name which receives only string data type.
+**The first field of registration is Seller name:** This field receives only string data type.
   
   ```
 <tr>
@@ -19,5 +19,7 @@ The first field of registration is Seller name which receives only string data t
 	</tr>
 
 ```
+
+
 
 ![Octocat](Registration.png)
