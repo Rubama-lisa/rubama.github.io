@@ -10,3 +10,12 @@ This project have 4 users. Each user need to register before entering this syste
 
 
 The first field of registration is Seller name which receives only string data type.
+  
+  ```
+<tr>
+	<td><label for="sellerName">Seller Name : </label></td>
+	<td><input type="text" id="sellerName" name="sname" value="<?php echo $sellerName ?>"> </td>
+	<td><p><?php echo $sellerNameErr; ?></p><td>
+	</tr>
+
+```
