@@ -7,3 +7,4 @@ This project have 4 users. Each user need to register before entering this syste
 *   Seller.
 *   Buyer.
 *   Agent.
+The first field of registration is Seller name which receives only string data type.
