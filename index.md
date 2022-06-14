@@ -19,4 +19,5 @@ The first field of registration is Seller name which receives only string data t
 	</tr>
 
 ```
+
 ![Octocat](Registration.png)
