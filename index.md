@@ -149,4 +149,8 @@ Finally, **"SUBMIT"** user information.
 ```
 
 **This is our registration interface outlook**.
+
+
+
+
 ![Octocat](Registration.png)
