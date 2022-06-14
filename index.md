@@ -12,7 +12,7 @@ This project have 4 users. Each user has need to register before entering the sy
 
 To do registration users must be filled those **Required Information** otherwise a user can not be a valid user. Also, do not have the right to access the system.
 
-**##BASIC INFORMATION**
+**BASIC INFORMATION**
 
 **The first field of registration is Seller name:** This text field receives only string data type.
   
@@ -103,7 +103,7 @@ To do registration users must be filled those **Required Information** otherwise
 		</tr>
 ```
 
-##**USER INFORMATION**
+**USER INFORMATION**
 
 **The Next field of registration is Enter Validate Email:** This text field receives string and integer data type.
 
@@ -148,5 +148,5 @@ Finally, **"SUBMIT"** user information.
 <input type="submit"  name="submit"  class="newbutton">	
 ```
 
-##**This is our registration interface outlook**.
+**This is our registration interface outlook**.
 ![Octocat](Registration.png)
