@@ -19,4 +19,4 @@ The first field of registration is Seller name which receives only string data t
 	</tr>
 
 ```
-![Octocat](https://https://github.com/Rubama-lisa/rubama.github.io/raw/main/Web-Technology-Project-main/Property%20Management%20System/betterproperty.com/betterproperty.com/PropertyManagementSystem/images/Registration.png/)
+![Octocat](Registration.png)
