@@ -1,13 +1,16 @@
 ## Welcome to Property Management System
 **This is our Registration page**
 .
-The features of Registration Page
-This project have 4 users. Each user need to register before entering the system.
+This project have 4 users. Each user has need to register before entering the system. So, the users are:
 *   Admin.
 *   Seller.
 *   Buyer.
 *   Agent.
 
+
+To do registration users must be filled those required information otherwise a user can not be a valid user. Also, do not have the right to access the system.
+
+**BASIC INFORMATION**
 
 **The first field of registration is Seller name:** This text field receives only string data type.
   
@@ -45,6 +48,102 @@ This project have 4 users. Each user need to register before entering the system
 		</td>
 		</tr>
        
+```
+
+**The Next field of registration is Trade Number:** This text field receives only integer data type.
+
+```
+<tr>
+       <td>  <label for="tradelicense">Trade Number : </label> </td>
+	   <td>	<input type="text" name="tradelicense" id="tradelicense" value="<?php echo $tradelicense ?>"> </td>
+		<td><p><?php echo $tradelicenseErr; ?></p>	</td>	
+     </tr>
+       
+```
+
+**The Next field of registration is Street Address:** This text field receives only integer data type.
+
+```
+<tr>
+       <td> <label for="streetAddress">Street Address : </label> </td>
+		<td><input type="text" name="streetaddress" id="streetAddress" value="<?php echo $streetAddress ?>"> </td>
+		<td><p><?php echo $streetAddressErr; ?></p> </td>
+		</tr>
+```
+
+**The Next field of registration is Area** This text field receives only string data type.
+
+```
+<tr>
+       <td> <label for="sArea">Area : </label> </td>
+		<td><input type="text" name="sarea" id="sArea" value="<?php echo $sArea ?>"> </td>
+		<td><p><?php echo $sAreaErr; ?></p>	</td>
+     </tr>
+```
+
+**The Next field of registration is City:** This text field receives only String data type.
+
+```
+<tr>
+       <td> <label for="sCity">City : </label> </td>
+		<td><input type="text" name="scity" id="sCity" value="<?php echo $sCity ?>"> </td>
+		<td><p><?php echo $sCityErr; ?></p> </td>
+		</tr>
+```
+
+**The Next field of registration is Zip Code:** This text field receives only integer data type.
+
+```
+<tr>
+       <td> <label for="sZipCode">Zip Code : </label></td>
+		<td><input type="text" name="szipcode" id="sZipCode" value="<?php echo $sZipCode ?>"> </td>
+		<td><p><?php echo $sZipCodeErr; ?></p></td>
+		</tr>
+```
+
+**USER INFORMATION**
+
+**The Next field of registration is Enter Validate Email:** This text field receives string and integer data type.
+
+```
+<tr>
+		<td><label for="Email"> Enter the use Validate Email  : </label></td>
+		<td><input type="email" name="email" id="Email" value="<?php echo $Email ?>"></td>
+		<td><p><?php echo $EmailErr; ?></p></td>
+		</td>
+		</tr>
+```
+
+**The Next field of registration is Enter Validate Password:** This password field receives string and integer data type.
+
+```
+<tr>
+		<td><label for="password">Enter the validate Password : </label></td>
+		<td><input type="password" name="pass" id="password" value="<?php echo $password ?>"></td>
+		<td><p><?php echo $passwordErr; ?></p></td>
+		</tr>
+```
+
+**The Next field of registration is Confirm Password:** This password field receives string and integer data type.
+
+```
+<tr>
+		<td><label for="rpassword">Confirm Password : </label></td>
+		<td><input type="password" name="rpass" id="rpassword" value="<?php echo $rPassword ?>"></td>
+		<td><p><?php echo $rPsswordErr; ?></p></td>
+		</tr>
+```
+
+
+Next we can found a **Back Button** 
+
+```
+<button type="button"> <a href="Login.php">Back!</a> </button>
+```
+Finally, **SUBMIT** user information. 
+
+```
+<input type="submit"  name="submit"  class="newbutton">	
 ```
 
 
