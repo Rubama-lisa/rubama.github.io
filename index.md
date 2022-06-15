@@ -1,5 +1,3 @@
-# Welcome to Property Management System
-
 **This is our Registration page**
 .
 
