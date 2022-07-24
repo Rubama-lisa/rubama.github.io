@@ -152,3 +152,57 @@ Finally, **"SUBMIT"** user information.
 
 
 ![Octocat](Registration.png)
+
+
+
+**This is our Login page**
+
+To do Login users must be filled those **Required Information** otherwise a user can not be enter to the system. Also, do not have the right to access the system.
+
+**The first field of Login is User name:** This text field receives only string data type.
+  
+  ```
+<h1 class="imgcontainer">Login Form</h1>
+    
+    <form name="LoginForm" action="" onsubmit="return validateForm()" method="POST"> 
+    <h3 class="imgcontainer">Already have an account?</h3>
+     <div class="imgcontainer">
+    <img src="../profile.png" alt="Avatar" class="avatar">
+    </div>
+    <div>
+    <label for="userName" class="label">User Name :</label>
+	<input type="text" id="userName" name="username" placeholder="Enter your username" >
+    </div>
+
+```
+
+**The Next field of Login is Password:** This text field receives only integer data type.
+
+ 
+  ```
+<div>
+	<label for="Password" id="password" class="label">Password :</label>
+    <input type="password" id="Password" name="password" placeholder="Enter your password" >
+    </div>
+    <div>
+
+```
+
+Next we can found a **Sign Up Button** if users not signup to the system then they use this button to sign up to the system.
+
+```
+<div>
+
+    <button type="button"> <a href="../view/Registration.php">Sign Up!</a> </button>
+    
+    </div>
+```
+Finally, **"SUBMIT"** user information. 
+
+```
+  <input id="submit" class="newbutton" name="submit" type="submit" value="LOGIN" >
+```
+
+**This is our Login interface outlook**.
+
+
