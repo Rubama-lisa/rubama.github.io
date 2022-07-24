@@ -1,4 +1,4 @@
-**This is our Registration page**
+## This is our Registration page
 .
 
 This project have 4 users. Each user has need to register before entering the system. So, the users are:
@@ -155,7 +155,7 @@ Finally, **"SUBMIT"** user information.
 
 
 
-# This is our Login page
+## This is our Login page
 
 To do Login users must be filled those **Required Information** otherwise a user can not be enter to the system. Also, do not have the right to access the system.
 
