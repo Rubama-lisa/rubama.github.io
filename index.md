@@ -1,4 +1,4 @@
-## This is our Registration page
+## This is our Registration Page
 .
 This project have 4 users. Each user has need to register before entering the system. So, the users are:
 *   Admin.
@@ -134,7 +134,7 @@ To do registration users must be filled those **Required Information** otherwise
 ```
 
 
-Next we can found a **Back Button:** 
+Besides, we can found a **Back Button:** because if user wants to back the previous pages then he can easily back by using this back button.
 
 ```
 <button type="button"> <a href="Login.php">Back!</a> </button>
@@ -193,7 +193,7 @@ To do Login users must be filled those **Required Information** otherwise a user
 
 ```
 
-Next we can found a **Sign Up Button** if users not signup to the system then they use this button to sign up to the system.
+Next we can found a **Sign Up Button** if users not signup to the system then they use this button to sign up to the system and then they can be allowed to login to the system.
 
 ```
 <div>
@@ -253,7 +253,7 @@ Finally, **"SUBMIT"** user information.
 
 ```
 
-Besides, we can found a **Back Button:** because if user wants to back the previous pages then he can easily back.
+Besides, we can found a **Back Button:** because if user wants to back the previous pages then he can easily back by using this back button.
 
 ```
 <button type="button"> <a href="Profile.php">Back!</a> </button>
@@ -265,3 +265,103 @@ Besides, we can found a **Back Button:** because if user wants to back the previ
 
 ![Octocat](ChangePassword.png)
 
+
+
+## This is our Add Property Page
+
+If a user wants to add property for selling purpose then the user must be  filled those **Required Information** otherwise a user can not add property information to the system.
+
+**The first field of Add Property is Property name:** This text field receives only string data type.
+  
+  ```
+ <tr>
+	<td><label for="propertyName">Property Name : </label></td>
+	<td><input type="text" id="propertyName" name="pname" value="<?php echo $propertyName ?>"></td>
+	<td><p><?php echo $propertyNameErr; ?></p></td>
+    </tr>
+
+```
+
+**The Next field of Add Property is Property Id:** This text field receives only integer data type.
+
+```
+<!-- propery Id -->
+	 <tr>
+       <td> <label for="pId">Property Id : </label></td>
+		<td><input type="text" name="pid" id="pId" value="<?php echo $pId ?>"></td>
+		<td><p><?php echo $pIdErr; ?></p></td>	
+    </tr>
+```
+
+**The first field of Add Property is Location:** This text field receives only string data type.
+  
+  ```
+
+<!-- Location  -->
+	<tr>
+		<td><label for="pLocation">Location : </label></td>
+		<td><input type="text" name="plocation" id="pLocation" value="<?php echo $pLocation ?>"></td>
+		<td><p><?php echo $pLocationErr; ?></p></td>
+		</tr>
+```
+
+**The Next field of Add Property is Owner Name:** This text field receives only string data type.
+
+```
+<!-- Owner  -->
+	<tr>
+		<td><label for="pOwner">Owner Name : </label></td>
+		<td><input type="text" name="powner" id="pOwner" value="<?php echo $pOwner ?>"></td>
+		<td><p><?php echo $pOwnerErr; ?></p></td>
+    </tr>
+```
+
+**The first field of Add Property is Property Price:** This text field receives only integer data type.
+  
+  ```
+<!-- Property Price -->
+	<tr>
+        <td><label for="pPrice">Property Price : </label></td>
+		<td><input type="text" name="pprice" id="pPrice" value="<?php echo $pPrice ?>"></td>
+		<td><p><?php echo $pPriceErr; ?></p></td>	
+
+	</tr>	
+
+```
+
+**The Next field of Add Property is Property Quantity:** This text field receives only integer data type.
+
+```
+<!-- Property Quantity -->
+	<tr>
+       <td> <label for="pQuantity">Property Quantity : </label></td>
+		<td><input type="text" name="pquantity" id="pQuantity" value="<?php echo $pQuantity ?>"></td>
+		<td><p><?php echo $pQuantityErr; ?></p></td>
+		</tr>
+```
+**The first field of Add Property is attach Property Picture:** This text field receives only file data type.
+  
+  ```
+<!-- Property Picture -->
+	<tr>
+        <td><label for="pPicture">Property Picture : </label></td>
+		<td><input type="file" name="file" id="pPicture" value="<?php echo $pPicture ?>"></td>
+		</tr
+
+```
+
+Finally, **"SUBMIT"** Property information. 
+
+```
+
+<input type="submit" name="submit" class="newbutton" >
+
+```
+
+Besides, we can found a **Back Button:** because if user wants to back the previous pages then he can easily back by using this back button.
+
+```
+<button type="button"> <a href="Profile.php">Back!</a> </button>
+```
+
+### This is our Add Property Information interface outlook
