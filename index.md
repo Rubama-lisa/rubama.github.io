@@ -1,3 +1,10 @@
+## This is the Home Page of our Property Management System. When a user visit our webpage then he or she can view this outlook of our system.
+
+
+![Octocat](Home.png)
+
+
+
 ## This is our Registration Page
 .
 This project have 4 users. Each user has need to register before entering the system. So, the users are:
