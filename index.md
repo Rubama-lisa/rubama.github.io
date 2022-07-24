@@ -365,3 +365,7 @@ Besides, we can found a **Back Button:** because if user wants to back the previ
 ```
 
 ### This is our Add Property Information interface outlook
+
+
+
+![Octocat](AddProperty.png)
