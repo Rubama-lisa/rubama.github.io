@@ -160,7 +160,7 @@ Finally, **"SUBMIT"** user information.
 
 
 
-## This is our Login page
+## This is our Login Page
 
 To do Login users must be filled those **Required Information** otherwise a user can not be enter to the system. Also, do not have the right to access the system.
 
@@ -215,7 +215,7 @@ Finally, **"SUBMIT"** user information.
 ![Octocat](Login.png)
 
 
-## This is our Change Password page
+## This is our Change Password Page
 
 To do change password users must be filled those **Required Information** otherwise a user can not change his or her password. Also, do not have the right to access the system.
 
@@ -248,6 +248,7 @@ To do change password users must be filled those **Required Information** otherw
 Finally, **"SUBMIT"** user information. 
 
 ```
+
 <input type="submit"  class= "newbutton" value="Continue" name= "button">
 
 ```
@@ -259,3 +260,8 @@ Besides, we can found a **Back Button:** because if user wants to back the previ
 ```
 
 ### This is our Change Password interface outlook
+
+
+
+![Octocat](ChangePassword.png)
+
