@@ -1,6 +1,5 @@
 ## This is our Registration page
 .
-
 This project have 4 users. Each user has need to register before entering the system. So, the users are:
 *   Admin.
 *   Seller.
@@ -152,6 +151,12 @@ Finally, **"SUBMIT"** user information.
 
 
 ![Octocat](Registration.png)
+
+
+
+
+
+
 
 
 
