@@ -213,3 +213,49 @@ Finally, **"SUBMIT"** user information.
 
 
 ![Octocat](Login.png)
+
+
+## This is our Change Password page
+
+To do change password users must be filled those **Required Information** otherwise a user can not change his or her password. Also, do not have the right to access the system.
+
+
+**INFORMATION that have to be Filled**
+
+**The first field of Change Password is Seller Id:** This text field receives only string data type.
+
+  ```
+<tr>
+     <!--  Id -->
+       <td> <label for="sellerId">Enter Seller Email : </label></td>
+		<td><input type="text" name="sid" id="sellerId" value="<?php echo $sellerId ?>"></td>
+		<td><p><?php echo $sellerIdErr; ?></p></td>
+		</tr>
+
+```
+
+**The Next field of Change Password is Current Password:** This text field receives string and integer data type.
+
+```
+ <!-- Current Password -->
+	   <tr>
+       <td> <label for="sPassword">Enter Your Current Password : </label></td>
+		<td><input type="text" name="spass" id="sPassword" value="<?php echo $sPassword ?>"></td>
+		<td><p><?php echo $sPasswordErr; ?></p></td>
+		</tr>
+```
+
+Finally, **"SUBMIT"** user information. 
+
+```
+<input type="submit"  class= "newbutton" value="Continue" name= "button">
+
+```
+
+Besides, we can found a **Back Button:** because if user wants to back the previous pages then he can easily back.
+
+```
+<button type="button"> <a href="Profile.php">Back!</a> </button>
+```
+
+### This is our Change Password interface outlook
