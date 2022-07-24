@@ -145,7 +145,7 @@ Finally, **"SUBMIT"** user information.
 <input type="submit"  name="submit"  class="newbutton">	
 ```
 
-**This is our registration interface outlook**.
+### This is our registration interface outlook
 
 
 
