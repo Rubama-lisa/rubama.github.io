@@ -156,10 +156,6 @@ Finally, **"SUBMIT"** user information.
 
 
 
-
-
-
-
 ## This is our Login Page
 
 To do Login users must be filled those **Required Information** otherwise a user can not be enter to the system. Also, do not have the right to access the system.
@@ -420,4 +416,4 @@ Finally, there is a **Back Button:** because if user wants to back the previous 
 
 
 
-
+![Octocat](Account.png)
