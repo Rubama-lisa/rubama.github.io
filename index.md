@@ -145,7 +145,7 @@ Finally, **"SUBMIT"** user information.
 <input type="submit"  name="submit"  class="newbutton">	
 ```
 
-### This is our registration interface outlook
+### This is our final registration interface outlook
 
 
 
@@ -208,7 +208,7 @@ Finally, **"SUBMIT"** user information.
   <input id="submit" class="newbutton" name="submit" type="submit" value="LOGIN" >
 ```
 
-### This is our Login interface outlook
+### This is our Login interface outlook of our System.
 
 
 
@@ -259,7 +259,7 @@ Besides, we can found a **Back Button:** because if user wants to back the previ
 <button type="button"> <a href="Profile.php">Back!</a> </button>
 ```
 
-### This is our Change Password interface outlook
+### This is our Change Password interface outlook of our System.
 
 
 
@@ -364,8 +364,60 @@ Besides, we can found a **Back Button:** because if user wants to back the previ
 <button type="button"> <a href="Profile.php">Back!</a> </button>
 ```
 
-### This is our Add Property Information interface outlook
+### This is our Add Property Information interface outlook of our System.
 
 
 
 ![Octocat](AddProperty.png)
+
+
+
+## This is our Account Page
+
+If a seller wants to check his current account balance, update balance. Also, show his account withdraw transaction history as well as user can withdraw money from his account. To do that, the user must be  filled those following **Required Information**.
+
+**The first field of Account Page is Current Balance:** 
+  
+  ```
+<button value="<?php echo $_SESSION["user"];?>" type="button" onclick="cureentbalance(this.value)" id="Currentbalance">Current Balance</button>
+
+```
+
+**The next field of Account Page is Update Balance:** 
+  
+  ```
+<form  action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" class="accountform"  method="POST">
+
+```
+**The next field of Account Page is WithdrawHistory:** 
+
+  ```
+<input type="submit" class= "newbutton" value="WithdrawHistory" name= "button">
+```
+
+**The next text field of Account Page is Withdraw Amount where users have to place the withdraw amount.** 
+
+ ```
+<input type="text" name="withdrawamount" id="WithrawAmount" placeholder="Enter Withdraw Amount">
+
+```
+
+**The next field of Account Page is Withdraw Button after placing withdraw amount then user can press this withdraw button.** 
+
+ ```
+<button type="button" onclick="withdrawbalance()">Withdraw</button>
+
+```
+
+Finally, there is a **Back Button:** because if user wants to back the previous pages then he can easily back by using this back button.
+
+```
+<button type="button"> <a href="Profile.php">Back!</a> </button>
+```
+
+### This is our Account interface outlook of our Property Management System.
+
+
+
+
+
