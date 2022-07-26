@@ -478,3 +478,51 @@ Buyer can can avail discount in some specific property list. To do that, the use
 ```
 
 ![Octocat](MakeDiscount.png)
+
+## This is our Profile Page
+
+Every user has a profile page for store all his personal information
+
+**There are some information here.** 
+---
+hello: default1
+hello2:dd
+---
+  
+  ```
+<label for="sellerName">Name:</label>
+<?php echo $sellerName; ?>
+
+<br>
+
+<label for="gender"> Gender :</label>
+<?php echo $gender; ?>
+
+<br>
+
+<label for="phone">Phone:  </label>
+<?php echo $phone; ?>
+
+<br>
+
+<label for="email">Email:</label>
+<?php echo $email; ?>
+
+<br>
+
+<label for="streetAddress">Street Address :</label>
+<?php echo $streetAddress; ?>
+
+<br>
+
+<label for="area">Area:  </label>
+<?php echo $area; ?>
+
+<br>
+
+<label for="zipcode">Zip Code:</label>
+<?php echo $zipcode; ?>
+
+```
+
+![Octocat](Profile.png)
