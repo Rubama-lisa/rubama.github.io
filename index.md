@@ -423,3 +423,31 @@ Finally, there is a **Back Button:** because if user wants to back the previous 
 
 
 ![Octocat](Account.png)
+
+## This is our Update Property Page
+
+Seller can update his/her property list. To do that, the user must be  filled those following **Required Information**.
+* Enter Property Id
+* Enter update Quantity
+* Enter Update price
+
+**There are 3 actions here.1st is update button for update the information ** 
+  
+  ```
+<button  type="button" onclick="updateproperty()" class="buttonpropertydelete">Update</button>
+
+```
+
+**The next is Refresh Button  for refresh the page** 
+  
+  ```
+<button type="button" class="buttonpropertydelete"> <a href="UpdateProperty.php">Refresh</a> </button>
+
+```
+**The next is Back button for back to the Home page ** 
+
+  ```
+<button type="button" class="buttonpropertydelete"> <a href="Profile.php">Back!</a> </button>
+```
+
+![Octocat](UpdateProperty.png)
