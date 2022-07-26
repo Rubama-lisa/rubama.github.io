@@ -431,7 +431,7 @@ Seller can update his/her property list. To do that, the user must be  filled th
 * Enter update Quantity
 * Enter Update price
 
-**There are 3 actions here.1st is update button for update the information ** 
+**There are 3 actions here.1st is update button for update the information** 
   
   ```
 <button  type="button" onclick="updateproperty()" class="buttonpropertydelete">Update</button>
@@ -444,10 +444,37 @@ Seller can update his/her property list. To do that, the user must be  filled th
 <button type="button" class="buttonpropertydelete"> <a href="UpdateProperty.php">Refresh</a> </button>
 
 ```
-**The next is Back button for back to the Home page ** 
+**The next is Back button for back to the Home page** 
 
   ```
 <button type="button" class="buttonpropertydelete"> <a href="Profile.php">Back!</a> </button>
 ```
 
 ![Octocat](UpdateProperty.png)
+
+## This is our Make Discount Page
+
+Buyer can can avail discount in some specific property list. To do that, the user must be  filled those following **Required Information**.
+* Discount Property Id
+* Discount Amount
+
+**There are 3 actions here.1st is Make Discount button for apply the discount** 
+  
+  ```
+<button  type="button" onclick="makeDiscount()" class="Buttonpropertydiscount">Make Discount</button>
+
+```
+
+**The next is Refresh Button  for refresh the page** 
+  
+  ```
+<button type="button" class="buttonpropertydelete"> <a href="UpdateProperty.php">Refresh</a> </button>
+
+```
+**The next is Back button for back to the Home page** 
+
+  ```
+<button type="button" class="buttonpropertydelete"> <a href="Profile.php">Back!</a> </button>
+```
+
+![Octocat](MakeDiscount.png)
