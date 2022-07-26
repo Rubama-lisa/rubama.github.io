@@ -530,4 +530,4 @@ Every user has a profile page for store all his personal information
 
 ![Octocat](Profile.png)
 
-For more information about Technical documentation [Go to the Site]([./another-page.html](https://document360.com/blog/technical-documentation/#:~:text=Technical%20documentation%20is%20documentation%20that,a%20product%2C%20system%20or%20service.)).
+For more information about Technical documentation <a href="[https://pages.github.com](https://document360.com/blog/technical-documentation/)">Go to the site</a>
