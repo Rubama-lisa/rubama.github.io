@@ -492,7 +492,7 @@ Every user has a profile page for store all his personal information
 * Area
 * Zipcode
   
-  ```
+ ```
 <label for="sellerName">Name:</label>
 <?php echo $sellerName; ?>
 
@@ -525,9 +525,7 @@ Every user has a profile page for store all his personal information
 
 <label for="zipcode">Zip Code:</label>
 <?php echo $zipcode; ?>
-
 ```
-
 ![Octocat](Profile.png)
 
 For more information about Technical documentation <a href="[https://pages.github.com](https://document360.com/blog/technical-documentation/)">Go to the site</a>
