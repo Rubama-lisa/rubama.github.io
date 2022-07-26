@@ -484,10 +484,13 @@ Buyer can can avail discount in some specific property list. To do that, the use
 Every user has a profile page for store all his personal information
 
 **There are some information here.** 
----
-hello: default1
-hello2:dd
----
+* Name
+* Gender
+* Phone
+* Email
+* Address
+* Area
+* Zipcode
   
   ```
 <label for="sellerName">Name:</label>
@@ -526,3 +529,5 @@ hello2:dd
 ```
 
 ![Octocat](Profile.png)
+
+For more information about Technical documentation [Go to the Site]([./another-page.html](https://document360.com/blog/technical-documentation/#:~:text=Technical%20documentation%20is%20documentation%20that,a%20product%2C%20system%20or%20service.)).
