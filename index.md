@@ -528,4 +528,4 @@ Every user has a profile page for store all his personal information
 ```
 ![Octocat](Profile.png)
 
-For more information about Technical documentation <span class="site-footer-credits"> <a href="[https://pages.github.com](https://document360.com/blog/technical-documentation/)">Go to the site</a>.</span>
+For more information about Technical documentation <span class="site-footer-credits"> <a href="[https://document360.com/blog/technical-documentation/]">Go to the site</a>.</span>
